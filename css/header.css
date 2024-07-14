@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    width: 75%;
+    height: 500px;
+    border-radius: 20px;
+    background: linear-gradient(#00eeff, #7aa7ea);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header button {
+    padding: 10px;
+    height: 40%;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    color: #06adb9;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header button:hover{
+    padding: 10px;
+    height: 40%;
+    width: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #06adb9;
+    margin-right: 10px;
+}
+header h1 {
+    color: #fff;
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        width: 100%;
+        height: 15%;
+    }
+}
